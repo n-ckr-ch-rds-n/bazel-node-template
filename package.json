@@ -9,7 +9,8 @@
     },
     "scripts": {
         "build": "bazel build //...",
-        "test": "bazel test //..."
+        "test": "bazel test //...",
+        "serve": "ibazel run :server"
     },
     "dependencies": {
         "@babel/cli": "^7.7.7",

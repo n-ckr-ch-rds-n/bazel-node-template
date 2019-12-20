@@ -21,3 +21,14 @@ babel(
         "$(location app.es5.js)"
     ]
 )
+
+http_server(
+    name = "server",
+    data = [
+        "index.html",
+        "app.es5.js"
+    ],
+    args = ["."],
+)
+
+
